@@ -1,0 +1,75 @@
+/* Modal backdrop */
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5); /* Dark semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it appears over other content */
+  }
+  
+  /* Modal content box */
+  .modal-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 500px; /* Make it more vertical */
+    width: 90%; /* Responsive width */
+    height: auto;
+    max-height: 80vh; /* Constrain the height */
+    overflow-y: auto; /* Allow scrolling if content overflows */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Smooth shadow */
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Image inside the modal */
+  .modal-photo {
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* Ensure the image fits without being cropped */
+    max-height: 500px; /* Ensure all images stay consistent */
+    border-radius: 8px;
+  }
+  
+  /* Modal heading */
+  h2 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  /* Modal description */
+  p {
+    font-size: 16px;
+    margin-top: 15px;
+    color: #666;
+  }
+  
+  /* Close button: X icon */
+  .close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: transparent;
+    color: black;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .close-button:hover {
+    color: #666; /* Subtle hover effect */
+  }
+  
+  /* Cursor becomes pointer when hovering over images */
+  .photo-item {
+    cursor: pointer;
+  }
+  
