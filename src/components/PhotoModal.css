@@ -5,11 +5,11 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.5); /* Dark semi-transparent background */
+    background: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1000; /* Ensure it appears over other content */
+    z-index: 1000;
   }
   
   /* Modal content box */
@@ -17,12 +17,11 @@
     background-color: white;
     padding: 30px;
     border-radius: 12px;
-    max-width: 500px; /* Make it more vertical */
+    max-width: 500px;
     width: 90%; /* Responsive width */
-    height: auto;
-    max-height: 80vh; /* Constrain the height */
-    overflow-y: auto; /* Allow scrolling if content overflows */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Smooth shadow */
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
     position: relative;
     display: flex;
@@ -30,29 +29,38 @@
     justify-content: space-between;
   }
   
-  /* Image inside the modal */
+  /* For mobile screens - add more padding and ensure it's not edge-to-edge */
+  @media (max-width: 600px) {
+    .modal-content {
+      padding: 20px; /* Reduce padding to fit mobile screens */
+      width: 80%; /* Ensure it doesn't stretch too wide */
+      max-width: 90%; /* Limit the width even on small screens */
+      margin: 10px; /* Add some margin around the modal */
+    }
+    .modal-photo {
+      max-height: 300px;
+    }
+  }
+  
   .modal-photo {
     width: 100%;
     height: auto;
-    object-fit: contain; /* Ensure the image fits without being cropped */
-    max-height: 500px; /* Ensure all images stay consistent */
+    object-fit: contain;
+    max-height: 450px;
     border-radius: 8px;
   }
   
-  /* Modal heading */
   h2 {
     margin-top: 20px;
     font-size: 24px;
   }
   
-  /* Modal description */
   p {
     font-size: 16px;
     margin-top: 15px;
     color: #666;
   }
   
-  /* Close button: X icon */
   .close-button {
     position: absolute;
     top: 15px;
@@ -61,15 +69,6 @@
     color: black;
     font-size: 24px;
     border: none;
-    cursor: pointer;
-  }
-  
-  .close-button:hover {
-    color: #666; /* Subtle hover effect */
-  }
-  
-  /* Cursor becomes pointer when hovering over images */
-  .photo-item {
     cursor: pointer;
   }
   
