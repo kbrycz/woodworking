@@ -44,14 +44,14 @@
   /* Responsive styling for smaller screens */
   @media (max-width: 900px) {
     .photo-gallery {
-      padding: 30px;
+      padding: 40px;
       grid-template-columns: repeat(2, 1fr); /* On tablets or smaller screens, 2 items per row */
     }
   }
   
   @media (max-width: 600px) {
     .photo-gallery {
-      padding: 20px;
+      padding: 30px;
       grid-template-columns: 1fr; /* On mobile, 1 item per row */
     }
   
