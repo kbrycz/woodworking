@@ -28,9 +28,9 @@ const photos = [
     },
     { 
       id: 3, 
-      title: "Cutting Board", 
-      src: cutting, 
-      description: "Crafted from leftover walnut and cherry, this cutting board is a simple yet functional project. While it's a great starting piece, I plan on creating more intricate designs with improved aesthetics in future cutting boards. It’s a great way to use up scrap wood while making something practical." 
+      title: "Entryway Table", 
+      src: entryway, 
+      description: "This entryway table was my final project in Woodworking 103. Crafted from cherry wood and finished with a matching cherry stain, it features elegant tapered legs and a drawer with dovetail joints for added strength. Standard domino joinery ensures the piece is sturdy and durable." 
     },
     { 
       id: 4, 
@@ -51,11 +51,11 @@ const photos = [
       description: "This versatile game table is used for a variety of activities when hosting guests. It’s sturdy enough to accommodate different games while also functioning as my workshop table. It’s practical, durable, and the ideal piece for both fun gatherings and hands-on projects." 
     },
     { 
-        id: 7, 
-        title: "Entryway Table", 
-        src: entryway, 
-        description: "This entryway table was my final project in Woodworking 103. Crafted from cherry wood and finished with a matching cherry stain, it features elegant tapered legs and a drawer with dovetail joints for added strength. Standard domino joinery ensures the piece is sturdy and durable." 
-      },
+      id: 7, 
+      title: "Cutting Board", 
+      src: cutting, 
+      description: "Crafted from leftover walnut and cherry, this cutting board is a simple yet functional project. While it's a great starting piece, I plan on creating more intricate designs with improved aesthetics in future cutting boards. It’s a great way to use up scrap wood while making something practical." 
+    },
       { 
         id: 8, 
         title: "Puzzle Cube", 
