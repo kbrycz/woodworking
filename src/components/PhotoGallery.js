@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
-import './PhotoGallery.css'; // Gallery styles
-import PhotoModal from './PhotoModal'; // Import the modal component
-import chess from '../images/chess1.jpg'; // Sample image for the gallery
-import chess2 from '../images/chess2.jpg'; // Sample image for the gallery
-import cutting from '../images/cutting.jpg'; // Sample image for the gallery
-import desk from '../images/desk.png'; // Sample image for the gallery
-import end_table from '../images/end.jpg'; // Sample image for the gallery
-import table from '../images/beer.jpg'; // Sample image for the gallery
+import './PhotoGallery.css';
+import PhotoModal from './PhotoModal';
+import chess from '../images/chess1.jpg';
+import chess2 from '../images/chess2.jpg';
+import cutting from '../images/cutting.jpg';
+import desk from '../images/desk.jpg';
+import end_table from '../images/end.jpg';
+import table from '../images/beer.jpg';
+import entryway from '../images/entryway.jpg';
+import puzzle_cube from '../images/puzzle_cube.jpg';
+import jenga from '../images/jenga.jpg';
+import game_storage from '../images/game_storage.jpg';
 
 
 const photos = [
@@ -46,6 +50,30 @@ const photos = [
       src: table, 
       description: "This versatile game table is used for a variety of activities when hosting guests. It’s sturdy enough to accommodate different games while also functioning as my workshop table. It’s practical, durable, and the ideal piece for both fun gatherings and hands-on projects." 
     },
+    { 
+        id: 7, 
+        title: "Entryway Table", 
+        src: entryway, 
+        description: "This entryway table was my final project in Woodworking 103. Crafted from cherry wood and finished with a matching cherry stain, it features elegant tapered legs and a drawer with dovetail joints for added strength. Standard domino joinery ensures the piece is sturdy and durable." 
+      },
+      { 
+        id: 8, 
+        title: "Puzzle Cube", 
+        src: puzzle_cube, 
+        description: "This 6-piece puzzle cube, made from cherry wood, was a fun yet challenging project using scrap material. Despite its simple appearance, achieving the precision needed for a perfect cube was surprisingly difficult. I look forward to refining this design with future builds." 
+      },
+      { 
+        id: 9, 
+        title: "Jenga", 
+        src: jenga, 
+        description: "With an abundance of extra poplar wood, I decided to craft a set of Jenga blocks. Finished with Odie's oil, the blocks have a pleasing appearance and a great scent. While poplar isn't my favorite wood, its affordability made it ideal for this project, where aesthetics are less important." 
+      },
+      { 
+        id: 10, 
+        title: "Game Storage", 
+        src: game_storage, 
+        description: "This simple game storage unit was a quick and efficient one-day project. Made from pine wood and spray-painted black, it provides much-needed space for organizing board games. Using basic screws and no complex joinery, it was designed with practicality in mind." 
+      }      
   ];
   
 
