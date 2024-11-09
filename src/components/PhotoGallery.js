@@ -11,6 +11,9 @@ import entryway from '../images/entryway.jpg';
 import puzzle_cube from '../images/puzzle_cube.jpg';
 import jenga from '../images/jenga.jpg';
 import game_storage from '../images/game_storage.jpg';
+import box from '../images/box.jpg';
+import endgrain_board from '../images/endgrain-board.jpg';
+import puzzle from '../images/puzzle.jpg';
 
 
 const photos = [
@@ -40,36 +43,54 @@ const photos = [
     },
     { 
       id: 5, 
+      title: "Puzzle Table", 
+      src: puzzle, 
+      description: "This Puzzle Table, crafted from cherry wood, adds both functionality and style to any space. Designed as a fun yet challenging project, it’s an engaging piece that showcases the beauty of cherry while offering a unique and entertaining experience." 
+    },
+    { 
+      id: 6, 
+      title: "Cutting Board (End Grain)", 
+      src: endgrain_board, 
+      description: "This end grain cutting board, crafted from walnut and maple with a juice groove, offers both durability and a beautiful aesthetic. The contrasting woods create a striking visual, while the end grain construction makes it ideal for heavy kitchen use." 
+    },
+    { 
+      id: 7, 
       title: "End Table", 
       src: end_table, 
       description: "A sophisticated end table that showcases advanced joinery techniques. This project was the culmination of my Chicago Woodworking 102 class, where I used both mortise and tenon joints, as well as domino joints, to create a sturdy and visually appealing structure. It’s a testament to precision and craftsmanship." 
     },
     { 
-      id: 6, 
+      id: 8, 
       title: "Game Table", 
       src: table, 
       description: "This versatile game table is used for a variety of activities when hosting guests. It’s sturdy enough to accommodate different games while also functioning as my workshop table. It’s practical, durable, and the ideal piece for both fun gatherings and hands-on projects." 
     },
     { 
-      id: 7, 
-      title: "Cutting Board", 
+      id: 9, 
+      title: "Simple Box", 
+      src: box, 
+      description: "This white oak box with a handle on top is a straightforward yet elegant project. The grain of the oak adds a natural charm, and the handle makes it a practical storage solution, perfect for small items." 
+    },
+    { 
+      id: 10, 
+      title: "Cutting Board (Edge Grain)", 
       src: cutting, 
       description: "Crafted from leftover walnut and cherry, this cutting board is a simple yet functional project. While it's a great starting piece, I plan on creating more intricate designs with improved aesthetics in future cutting boards. It’s a great way to use up scrap wood while making something practical." 
     },
       { 
-        id: 8, 
+        id: 11, 
         title: "Puzzle Cube", 
         src: puzzle_cube, 
         description: "This 6-piece puzzle cube, made from cherry wood, was a fun yet challenging project using scrap material. Despite its simple appearance, achieving the precision needed for a perfect cube was surprisingly difficult. I look forward to refining this design with future builds." 
       },
       { 
-        id: 9, 
+        id: 12, 
         title: "Jenga", 
         src: jenga, 
         description: "With an abundance of extra poplar wood, I decided to craft a set of Jenga blocks. Finished with Odie's oil, the blocks have a pleasing appearance and a great scent. While poplar isn't my favorite wood, its affordability made it ideal for this project, where aesthetics are less important." 
       },
       { 
-        id: 10, 
+        id: 13, 
         title: "Game Storage", 
         src: game_storage, 
         description: "This simple game storage unit was a quick and efficient one-day project. Made from pine wood and spray-painted black, it provides much-needed space for organizing board games. Using basic screws and no complex joinery, it was designed with practicality in mind." 
