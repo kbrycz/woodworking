@@ -17,6 +17,8 @@ import puzzle from '../images/puzzle.jpg';
 import coffee from '../images/coffee.jpg';
 import coffee2 from '../images/coffee2.jpg';
 import pencil from '../images/pencil.jpg';
+import coat from '../images/coat.jpg';
+import organizer from '../images/organizer.jpg';
 
 
 const photos = [
@@ -82,36 +84,48 @@ const photos = [
     },
     { 
       id: 11, 
+      title: "Organizer", 
+      src: organizer, 
+      description: "I had some Brazilian oak to play with, so decided to make an organizer that goes on top of my dresser to organize everyday items." 
+    },
+    { 
+      id: 12, 
+      title: "Coat Rack", 
+      src: coat, 
+      description: "I had some really nice scrap walnut, and I was wondering around home depot and saw some hangers. Bought some and made this the same day! Very easy and nice looking project!" 
+    },
+    { 
+      id: 13, 
       title: "Pencil Holder", 
       src: pencil, 
       description: "I had some spare wood so I put together a nice pencil holder. Stores everything nicely and the cherry wood makes it feel premium." 
     },
     { 
-      id: 12, 
+      id: 14, 
       title: "Cutting Board (Edge Grain)", 
       src: cutting, 
       description: "Crafted from leftover walnut and cherry, this cutting board is a simple yet functional project. While it's a great starting piece, I plan on creating more intricate designs with improved aesthetics in future cutting boards. It’s a great way to use up scrap wood while making something practical." 
     },
       { 
-        id: 13, 
+        id: 15, 
         title: "Puzzle Cube", 
         src: puzzle_cube, 
         description: "This 6-piece puzzle cube, made from cherry wood, was a fun yet challenging project using scrap material. Despite its simple appearance, achieving the precision needed for a perfect cube was surprisingly difficult. I look forward to refining this design with future builds." 
       },
       { 
-        id: 14, 
+        id: 16, 
         title: "Jenga", 
         src: jenga, 
         description: "With an abundance of extra poplar wood, I decided to craft a set of Jenga blocks. Finished with Odie's oil, the blocks have a pleasing appearance and a great scent. While poplar isn't my favorite wood, its affordability made it ideal for this project, where aesthetics are less important." 
       },
       { 
-        id: 15, 
+        id: 17, 
         title: "Game Storage", 
         src: game_storage, 
         description: "This simple game storage unit was a quick and efficient one-day project. Made from pine wood and spray-painted black, it provides much-needed space for organizing board games. Using basic screws and no complex joinery, it was designed with practicality in mind." 
       },
       { 
-        id: 16, 
+        id: 18, 
         title: "Simple Box", 
         src: box, 
         description: "This white oak box with a handle on top is a straightforward yet elegant project. The grain of the oak adds a natural charm, and the handle makes it a practical storage solution, perfect for small items." 
