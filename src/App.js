@@ -23,7 +23,7 @@ function App() {
       {/* Footer */}
       <footer className="bg-gray-200 py-4 mt-4">
         <div className="max-w-7xl mx-auto text-center text-gray-600">
-          © {new Date().getFullYear()} My Woodworking Projects
+          © {new Date().getFullYear()} Meet Karl
         </div>
       </footer>
     </div>
