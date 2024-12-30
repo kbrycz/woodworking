@@ -1,18 +1,37 @@
-import React from 'react';
-import './PhotoModal.css'; // Import modal-specific styles
+// src/components/PhotoModal.js
+import React from 'react'
 
-const PhotoModal = ({ photo, closeModal }) => {
+export default function PhotoModal({ photo, isOpen, onClose }) {
+  if (!isOpen || !photo) return null
+
   return (
-    <div className="modal-backdrop" onClick={closeModal}>
-      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-        <img src={photo.src} alt={photo.title} className="modal-photo" />
-        <h2>{photo.title}</h2>
-        <p>{photo.description}</p>
-        {/* Update the close button to an X */}
-        <button className="close-button" onClick={closeModal}>&times;</button>
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/50"
+      onClick={onClose}
+    >
+      {/* Content wrapper */}
+      <div
+        className="bg-white p-6 md:p-8 w-11/12 max-w-xl rounded-md shadow-lg relative"
+        onClick={(e) => e.stopPropagation()}
+      >
+        {/* Close button */}
+        <button
+          className="absolute top-3 right-3 text-gray-500 hover:text-gray-800"
+          onClick={onClose}
+        >
+          ✕
+        </button>
+
+        <h2 className="text-2xl font-semibold mb-4">{photo.title}</h2>
+        <img
+          src={photo.src}
+          alt={photo.title}
+          className="w-full max-h-96 object-contain rounded mb-4"
+        />
+        <p className="text-gray-700 text-justify leading-relaxed">
+          {photo.description}
+        </p>
       </div>
     </div>
-  );
-};
-
-export default PhotoModal;
+  )
+}
