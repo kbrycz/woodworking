@@ -66,7 +66,7 @@ export const photos = [
   { 
     id: 8, 
     title: "Face Grain Cutting Boards", 
-    src: puzzle, 
+    src: cutting_boards, 
     description: "I had an olive wood slab that I was going to use for a coffee table, but I decided I did not need any more coffee tables. Basically cut it up to make it look nice, oiled and waxed it up, and gave one to my mom." 
   },
   { 
