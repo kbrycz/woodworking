@@ -31,7 +31,7 @@ export const photos = [
   { 
     id: 2, 
     title: "Michigan Epoxy Coffee Table", 
-    src: entryway, 
+    src: michigan, 
     description: "This coffee table was made out of 2 inch thick cherry and some black epoxy. First had to cut out the michigan shape with a jig saw which took a long time to make it precise. This project really tested my skills/problem solving with all the mess ups relating to the epoxy. But it ended up turning out alright!" 
   },
   { 
